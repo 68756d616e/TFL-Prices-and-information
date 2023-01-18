@@ -15,7 +15,7 @@ B Pay as you go caps
 - Travelcards
 - River Bus services
 - IFS Cloud Cable Car
-Please type here: """)
+Please type a,b,c or d here: """)
 
 # New bus and tram prices
     if general_question == 'a' or general_question == 'A':
@@ -43,13 +43,21 @@ Zone 1, 2, 3 and 4	        £11.00	            £11.00	            £55.20
 Zone 1, 2, 3, 4 and 5	    £13.10	            £13.10	            £65.70
 Zone 1, 2, 3, 4, 5 and 6	£14.10	            £14.10	            £70.30""")
 
-# Pay as you go caps
-# For Tube, DLR, London Overground, Elizabeth line and National Rail services
-# Adult rate daily and weekly caps increased by an average of 3.8%.
-
 # Travelcards
 # Adult Travelcard prices increased by an average of 3.8%.
-
+    elif general_question == 'c' or general_question == 'C':
+        print("""Travelcards
+Adult Travelcard prices increased by an average of 3.8%.
+Zone(s)	                    One Day Anytime	    One Day     Off-peak	7 Day	    Monthly	Annual
+Zone 1 only	                £14.40	            £14.40	    £38.40	    £147.50	    £1,536
+Zone 1 and 2	            £14.40	            £14.40	    £38.40	    £147.50	    £1,536
+Zone 1, 2 and 3	            £14.40	            £14.40	    £45.20	    £173.60	    £1,808
+Zone 1, 2, 3 and 4	        £14.40	            £14.40	    £55.20	    £212.00	    £2,208
+Zone 1, 2, 3, 4 and 5	    £20.30	            £14.40	    £65.70	    £252.30	    £2,628
+Zone 1, 2, 3, 4, 5 and 6	£20.30	            £14.40	    £70.30	    £270	    £2,812
+""")
+        print() # Open space
+        
 # River Bus services
 # Pay as you go fares increased on all Uber boats by Thames Clippers.
 
