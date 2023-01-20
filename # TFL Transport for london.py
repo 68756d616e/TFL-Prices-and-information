@@ -67,6 +67,16 @@ West	            £4.80	£2.40
 Central and East	£8.70	£4.35
 Central and West	£8.70	£4.35
 West to East	    £13.50	£6.75        """)
-        print() Empty space
+        print() # Empty space
 
 # IFS Cloud Cable Car
+
+    elif general_question == 'e' or general_question == 'E':
+        print("""IFS Cloud Cable Car: pay as you go and cash fares increased by an overall average of 9.2%.
+The adult single pay as you go fare will increase by £1 to £6. The child single fare will remain at half of the adult fare.
+Ticket type	Adult	Child
+One way (ticket office)	£6.00	£3.00
+One way (online, pay as you go)	£5.00	£2.50
+Round trip (ticket office)	£12.00	£6.00
+Round trip (online)	£10.00	£5.00""")
+        print() # Empty space
